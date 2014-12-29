@@ -13,7 +13,7 @@ export default Ember.Component.extend({
     },
     didInsertElement: function() {
         var self = this;
-        this.$('#phone_number').mask('999-999-9999');
-        this.$('#phone_number').keypress(function (event) { self.inputWithDash(event); });
+        this.$('input').mask('999-999-9999');
+        this.$('input').keypress(function (event) { self.inputWithDash(event); });
     }
 });
