@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-phone-number",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "a simple addon that provides input masking for phone numbers",
   "directories": {
     "doc": "doc",
