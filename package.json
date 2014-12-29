@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-phone-number",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "a simple addon that provides input masking for phone numbers",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/toranb/ember-cli-phone-number",
   "engines": {
     "node": ">= 0.10.0"
   },
