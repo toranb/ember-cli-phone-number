@@ -2,8 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
     validate: function(strCheck, e) {
-        var eventInstance = window.event ? event : e;
-        var unicode = eventInstance.charCode ? eventInstance.charCode : eventInstance.keyCode;
+        var unicode = e.charCode ? e.charCode : e.keyCode;
         if (strCheck.indexOf(unicode) === -1) {
             e.preventDefault();
         }
