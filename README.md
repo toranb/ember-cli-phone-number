@@ -3,6 +3,9 @@
 [![Build Status][]](https://travis-ci.org/toranb/ember-cli-phone-number)
 [![NPM Downlaads](https://img.shields.io/npm/dm/ember-cli-phone-number.svg)](https://www.npmjs.org/package/ember-cli-phone-number)
 
+## Deprecated
+This phone-number component is now part of a masked suite of ember components included with this [addon][]
+
 ## Description
 Ember-cli-phone-number is an Ember CLI add-on. This addon will mask an input of type text to look like a phone number
 
@@ -22,3 +25,4 @@ $ ember g ember-cli-phone-number
 ```
 
 [Build Status]: https://secure.travis-ci.org/toranb/ember-cli-phone-number.png?branch=master
+[addon]: https://github.com/toranb/ember-cli-masked-inputs
